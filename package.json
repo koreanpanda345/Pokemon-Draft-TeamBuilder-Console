@@ -1,0 +1,25 @@
+{
+  "name": "pokemondraftteambuilder",
+  "version": "1.0.0",
+  "description": "A Nodejs Pokemon Draft Team Builder",
+  "main": "src/index.js",
+  "scripts": {
+    "prestart": "node src/TeamFiles.js",
+    "start": "node .",
+    "build": "npm i"
+  },
+  "author": "Cody Spratford",
+  "license": "MIT",
+  "dependencies": {
+    "@pkmn/data": "0.0.9",
+    "@pkmn/dex": "0.0.9",
+    "@smogon/calc": "^0.4.2",
+    "chalk": "^4.1.0",
+    "pokeapi-js-wrapper": "^1.1.2"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "listr": "^0.14.3",
+    "rxjs": "^6.6.0"
+  }
+}
