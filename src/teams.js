@@ -42,6 +42,8 @@ module.exports = class Teams {
                 const _pokemon = gen.get(8).learnsets.get(pokemon) === undefined ? gen.get(7).learnsets.get(pokemon) : gen.get(8).learnsets.get(pokemon);
                 if(await(await _pokemon).learnset["wish"])
                     obj.push({pokemon: pokemon, move: "Wish"});
+                if(await(await _pokemon).learnset["healingwish"])
+                    obj.push({pokemon: pokemon, move: "Healing Wish"});
                 if(await(await _pokemon).learnset["healbell"])
                     obj.push({pokemon: pokemon, move: "Heal Bell"});
           }
@@ -68,7 +70,7 @@ module.exports = class Teams {
                     obj.push({pokemon: pokemon, move: "Volt Switch"});
                 if(await(await _pokemon).learnset["flipturn"])
                     obj.push({pokemon: pokemon, move: "Flip Turn"});
-                if(await(await _pokemon).learnset["teleport"]);
+                if(await(await _pokemon).learnset["teleport"])
                     obj.push({pokemon: pokemon, move: "Teleport"});
                 if(await(await _pokemon).learnset["batonpass"])
                     obj.push({pokemon: pokemon, move: "Baton Pass"});

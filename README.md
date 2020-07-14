@@ -21,8 +21,7 @@ then run the `npm run start` command, and watch the magic happen.
 
 # NOTICE
 I am not done making this, so there will be bugs. the current bugs that i know of, are the following:
-
-- Pivot Pokemon: Pokemon that don't have a pivot move for some reason is added with the Teleport move. 
+ 
 - Cleric Pokemon: Pokemon that knows wish, doesn't show up for some odd reason.
 
 You are always welcome to edit the program if you want to. I am making sure I comment stuff, to make it easier for those that don't like how it displays or such.
