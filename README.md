@@ -19,6 +19,11 @@ You can add the Team Name in the string object called team_name.
 
 then run the `npm run start` command, and watch the magic happen.
 
+# To Use the Damage Calculator
+You will need to do some editing in the src/damagecalcs/index.js file.
+The only things you will need to edit to use is the items, boosts, and natures. anything else you can pass in as an argument in the console. Look at the code to see what will trigger what. as always you can edit the code, if you don't like how it looks, or such.
+
+
 # NOTICE
 I am not done making this, so there will be bugs. the current bugs that i know of, are the following:
  

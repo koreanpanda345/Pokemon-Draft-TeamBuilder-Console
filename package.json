@@ -6,7 +6,9 @@
   "scripts": {
     "prestart": "node src/TeamFiles.js",
     "start": "node .",
-    "build": "npm i"
+    "build": "npm i",
+    "damage": "node src/damagecalcs/index.js",
+    "calc": "node src/damagecalcs/index.js"
   },
   "author": "Cody Spratford",
   "license": "MIT",
